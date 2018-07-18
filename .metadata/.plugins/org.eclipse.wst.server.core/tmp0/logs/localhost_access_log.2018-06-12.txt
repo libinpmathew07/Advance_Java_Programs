@@ -1,0 +1,15 @@
+127.0.0.1 - - [12/Jun/2018:13:19:53 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:19:54 +0530] "GET /JspActionTagPrograms/LoginPage.jsp HTTP/1.1" 200 416
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:19:54 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:20:11 +0530] "GET /JspActionTagPrograms/loginaction?email=admin%40gmail.com&pass=admin%40123 HTTP/1.1" 404 1058
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:20:54 +0530] "GET /JspActionTagPrograms/loginaction?email=admin%40gmail.com&pass=admin%40123 HTTP/1.1" 404 1058
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:20:56 +0530] "GET /JspActionTagPrograms/LoginPage.jsp HTTP/1.1" 200 420
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:21:04 +0530] "GET /JspActionTagPrograms/loginaction.jsp?email=admin%40gmail.com&pass=admin%40123 HTTP/1.1" 200 284
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:21:09 +0530] "GET /JspActionTagPrograms/loginaction.jsp?email=admin%40gmail.comss&pass=admin%40123 HTTP/1.1" 200 708
+127.0.0.1 - - [12/Jun/2018:13:45:12 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:45:14 +0530] "GET /JspSetGetPropertyProgram/loginpage.jsp HTTP/1.1" 200 416
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:45:22 +0530] "GET /JspSetGetPropertyProgram/action1.jsp?email=azartechnet%40gmail.com&pass=azar HTTP/1.1" 500 5261
+127.0.0.1 - - [12/Jun/2018:13:47:07 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:47:08 +0530] "GET /SampleJSPUseBean/ActionPage.jsp HTTP/1.1" 500 2725
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:47:20 +0530] "GET /SampleJSPUseBean/RecordPage.jsp HTTP/1.1" 200 422
+0:0:0:0:0:0:0:1 - - [12/Jun/2018:13:47:26 +0530] "GET /SampleJSPUseBean/ActionPage.jsp?email=admin%40gmail.com&pass=admin HTTP/1.1" 200 337

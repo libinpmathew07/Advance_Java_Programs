@@ -1,0 +1,14 @@
+127.0.0.1 - - [08/Jun/2018:12:42:34 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:42:39 +0530] "GET /filterusingannotation/index.jsp HTTP/1.1" 200 351
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:42:39 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:42:43 +0530] "GET /filterusingannotation/servlet1? HTTP/1.1" 404 1054
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:43:17 +0530] "GET /filterusingannotation/index.jsp HTTP/1.1" 200 351
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:43:18 +0530] "GET /filterusingannotation/servelt1? HTTP/1.1" 200 76
+127.0.0.1 - - [08/Jun/2018:12:49:08 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:49:10 +0530] "GET /filterusingannotation2/index.jsp HTTP/1.1" 200 438
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:49:13 +0530] "GET /filterusingannotation2/servlet1? HTTP/1.1" 200 76
+127.0.0.1 - - [08/Jun/2018:12:50:05 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:50:08 +0530] "GET /filterusingannotation2/index.jsp HTTP/1.1" 200 440
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:50:09 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:50:10 +0530] "GET /filterusingannotation2/servlet1? HTTP/1.1" 200 76
+0:0:0:0:0:0:0:1 - - [08/Jun/2018:12:50:15 +0530] "GET /filterusingannotation2/servlet2? HTTP/1.1" 200 76

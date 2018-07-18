@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+         <ui:include src="index.xhtml"/>
+         
+       <h:form>
+           <br><h:outputLabel>Uname:</h:outputLabel>
+            <h:inputText/>
+            <h:outputLabel>Pass:</h:outputLabel>
+            <h:inputSecret/>
+            <h:selectManyCheckbox>
+                <f:selectItem itemLabel="UG" itemValue="UG"/>
+                <f:selectItem itemLabel="PG" itemValue="PG"/>
+            </h:selectManyCheckbox>
+            <h:selectOneRadio>
+                <f:selectItem itemLabel="male" itemValue="male"/>
+                <f:selectItem itemLabel="female" itemValue="female"/>
+            </h:selectOneRadio>
+            <h:outputLabel>Address:</h:outputLabel>
+            <h:inputTextarea cols="8" rows="2"/></br>
+            <h:commandButton value="Login"/>
+        </h:form>
+        
+        
+    </h:body>
+</html>
+

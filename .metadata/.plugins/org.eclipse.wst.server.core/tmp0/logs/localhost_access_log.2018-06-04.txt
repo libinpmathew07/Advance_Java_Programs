@@ -1,0 +1,9 @@
+127.0.0.1 - - [04/Jun/2018:14:01:25 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [04/Jun/2018:14:01:27 +0530] "GET /PgpAdvanceJavaProgram1/ HTTP/1.1" 200 2926
+0:0:0:0:0:0:0:1 - - [04/Jun/2018:14:01:28 +0530] "GET /PgpAdvanceJavaProgram1/images/img2.jpg HTTP/1.1" 200 4093
+0:0:0:0:0:0:0:1 - - [04/Jun/2018:14:01:28 +0530] "GET /PgpAdvanceJavaProgram1/images/img3.jpg HTTP/1.1" 200 5015
+0:0:0:0:0:0:0:1 - - [04/Jun/2018:14:01:28 +0530] "GET /PgpAdvanceJavaProgram1/images/img1.jpg HTTP/1.1" 200 4613
+0:0:0:0:0:0:0:1 - - [04/Jun/2018:14:01:28 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [04/Jun/2018:14:01:40 +0530] "GET /PgpAdvanceJavaProgram1/LoginPage.jsp HTTP/1.1" 200 2322
+0:0:0:0:0:0:0:1 - - [04/Jun/2018:14:01:46 +0530] "GET /PgpAdvanceJavaProgram1/UserLoginAction?email=admin%40gmail.cos&pwd=s HTTP/1.1" 200 1848
+0:0:0:0:0:0:0:1 - - [04/Jun/2018:14:01:55 +0530] "GET /PgpAdvanceJavaProgram1/UserLoginAction?email=azar%40gmail.com&pwd=azar HTTP/1.1" 200 1848

@@ -1,0 +1,450 @@
+<!-- <%@ page language="java" contentType="text/html; charset=ISO-8859-1" -->
+<!--     pageEncoding="ISO-8859-1"%> -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type"
+	content="text/html; charset=windows-1252">
+
+<title>Tutorials-LogicPrograms</title>
+<style type="text/css">
+a {
+	font-family: Times New Roman;
+}
+</style>
+<!-- Font Awesome -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="css/mdb.min.css" rel="stylesheet">
+<!-- Your custom styles (optional) -->
+<link href="css/style.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+	<!-- <jsp:include page="header.jsp"></jsp:include> -->
+
+<a href="https://www.youtube.com/channel/UCARc3v6818KY-BfmOc2efUQ?view_as=subscriber"><img alt="" src="images/iconsyoutube.png" align="right"></a>
+<a href="https://www.facebook.com/jprogrammingin-1682438655409294/"><img alt="" src="images/iconsfacbook.png" align="right" width="48px"></a>
+<a href="https://www.facebook.com/login/"><img alt="" src="images/iconsshare.png" align="right" width="48px"></a>
+	<!-- headerfile -->
+	<!-- <img src="images/logo1.png" width="300px" height="100px"/> -->
+	<h3 style="font-family: Elephant; color: #327cf2">JavaHardCode-Programming</h3>
+	<sub style="font-family: Forte; color: #28ef21; font-size: medium;">Easy
+		to Learn</sub>
+	<hr width="32%" align="left">
+
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark primary-color"> <!-- Collapse button -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#basicExampleNav" aria-controls="basicExampleNav"
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<!-- Collapsible content -->
+	<div class="collapse navbar-collapse" id="basicExampleNav">
+
+		<!-- Links -->
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item"><a class="nav-link" href="index.html">Home
+
+			</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li class="nav-item"><a class="nav-link" href="homepage.html">Author
+
+			</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li class="nav-item"><a class="nav-link"
+				href="logicprograms.html">LogicPrograms</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li class="nav-item"><a class="nav-link"
+				href="javadocumentpage1.html">Java</a></li>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<!-- Dropdown -->
+			<li class="nav-item dropdown"><a
+				class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OOPSOnlineTest</a>
+				<div class="dropdown-menu dropdown-primary"
+					aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="onlinequizpage1.html">Set-1</a>
+
+				</div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<!-- Dropdown -->
+			<li class="nav-item dropdown"><a
+				class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programming
+					Videos</a>
+				<div class="dropdown-menu dropdown-primary"
+					aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="cvideospage1.html">C-Videos</a> <a
+						class="dropdown-item" href="oopsvideospage1.html">OOPS-Videos</a>
+					<a class="dropdown-item" href="javavideos.html">Java-Videos</a>
+				</div></li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</ul>
+		<!-- Links -->
+
+		<h6 style="font-family: Forte">(JavaHardCode)</h6>
+	</div>
+	<!-- Collapsible content --> </nav>
+	<!--/.Navbar-->
+	<!-- headerend -->
+
+
+
+	<!--Accordion wrapper-->
+	<div class="accordion" id="accordionEx" role="tablist"
+		aria-multiselectable="true">
+
+		<!-- Accordion card -->
+		<div class="card">
+
+			<!-- Card header -->
+			<div class="card-header" role="tab" id="headingOne">
+				<a data-toggle="collapse" href="#collapseOne" aria-expanded="true"
+					aria-controls="collapseOne">
+					<h5 class="mb-0">
+						LoginProgram-ReverseNumber <i class="fa fa-angle-down rotate-icon"></i>
+					</h5>
+				</a>
+			</div>
+
+			<!-- Card body -->
+			<div id="collapseOne" class="collapse show" role="tabpanel"
+				aria-labelledby="headingOne" data-parent="#accordionEx">
+				<div class="card-body">
+					while (n != 0)<br> {<br> reverse = reverse * 10;<br>
+					reverse = reverse + n%10;<br> n = n/10;<br> }
+				</div>
+			</div>
+		</div>
+		<!-- Accordion card -->
+
+		<!-- Accordion card -->
+		<div class="card">
+
+			<!-- Card header -->
+			<div class="card-header" role="tab" id="headingTwo">
+				<a class="collapsed" data-toggle="collapse" href="#collapseTwo"
+					aria-expanded="false" aria-controls="collapseTwo">
+					<h5 class="mb-0">
+						LoginProgram-ArmStrongNumber <i
+							class="fa fa-angle-down rotate-icon"></i>
+					</h5>
+				</a>
+			</div>
+
+			<!-- Card body -->
+			<div id="collapseTwo" class="collapse" role="tabpanel"
+				aria-labelledby="headingTwo" data-parent="#accordionEx">
+				<div class="card-body">
+					while(n>0)<br> {<br> rem=n%10;<br> s=s+rem*rem*rem;<br>
+					n=n/10;<br> }<br> if(n==s)<br> { //stmt;<br> }<br>
+					else<br> { //stmt;<br> }
+				</div>
+			</div>
+		</div>
+		<!-- Accordion card -->
+
+		<!-- Accordion card -->
+		<div class="card">
+
+			<!-- Card header -->
+			<div class="card-header" role="tab" id="headingThree">
+				<a class="collapsed" data-toggle="collapse" href="#collapseThree"
+					aria-expanded="false" aria-controls="collapseThree">
+					<h5 class="mb-0">
+						LoginProgram-Sumofthedigits<i class="fa fa-angle-down rotate-icon"></i>
+					</h5>
+				</a>
+			</div>
+
+			<!-- Card body -->
+			<div id="collapseThree" class="collapse" role="tabpanel"
+				aria-labelledby="headingThree" data-parent="#accordionEx">
+				<div class="card-body">
+					while (t != 0)<br> {<br> remainder = t % 10;<br> sum
+					= sum + remainder;<br> t = t / 10;<br> }
+				</div>
+			</div>
+		</div>
+		<!-- Accordion card -->
+		<!-- Accordion card -->
+		<div class="card">
+
+			<!-- Card header -->
+			<div class="card-header" role="tab" id="headingThree">
+				<a class="collapsed" data-toggle="collapse" href="#collapseFour"
+					aria-expanded="false" aria-controls="collapseFour">
+					<h5 class="mb-0">
+						ViewAndDownload<i class="fa fa-angle-down rotate-icon"></i>
+					</h5>
+				</a>
+			</div>
+
+			<!-- Card body -->
+			<div id="collapseFour" class="collapse" role="tabpanel"
+				aria-labelledby="headingFour" data-parent="#accordionEx">
+				<div class="card-body">
+					<a href="downloadedfile/commanlogicprograms.txt" download>ClickHere</a>
+				</div>
+			</div>
+		</div>
+		<!-- Accordion card -->
+	</div>
+
+	<!--/.Accordion wrapper-->
+
+	<div class="card">
+		<div class="card-header" role="tab">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h5 class="panel-title">
+							<a data-toggle="collapse" href="#collapse1">PatternPrograms-1<i
+								class="fa fa-angle-down rotate-icon"></i></a>
+						</h5>
+					</div>
+					<div id="collapse1" class="panel-collapse collapse">
+						<div class="panel-body">
+							*<br> * *<br> * * *<br> * * * *<br> * * * * *<br>
+							Example Logic:<br> ==============<br> for(k=1;
+							k<=rows;k++)<br> {<br> for(f=1; f<=k;f++)<br> {<br>
+							cout<<"*";<br> }<br> cout<<"\n";<br> }<br>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- pattern-2 -->
+	<div class="card">
+		<div class="card-header" role="tab">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h5 class="panel-title">
+							<a data-toggle="collapse" href="#collapse2">PatternPrograms-2<i
+								class="fa fa-angle-down rotate-icon"></i></a>
+						</h5>
+					</div>
+					<div id="collapse2" class="panel-collapse collapse">
+						<div class="panel-body">
+							1<br> 1 2<br> 1 2 3<br> 1 2 3 4<br> 1 2 3 4 5<br>
+							Example Logic:<br> ==============<br> for(k=1;
+							k<=rows;k++)<br> {<br> for(f=1; f<=k;f++)<br> {<br>
+							cout<<"f";&nbsp;&nbsp;Note:Remove doublequotes" "in f variable<br>
+							}<br> cout<<"\n";<br> }
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- pattern end -->
+	<!-- pattern-2 -->
+	<div class="card">
+		<div class="card-header" role="tab">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h5 class="panel-title">
+							<a data-toggle="collapse" href="#collapse3">PatternPrograms-3<i
+								class="fa fa-angle-down rotate-icon"></i></a>
+						</h5>
+					</div>
+					<div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">
+							*****<br>****<br> ***<br> **<br>*<br>
+							Example Logic:<br> ==============<br> for(i=5;i>=1;i--)<br> {<br>
+							for(j=1;j<=i;j++)<br> { <br>cout<<"*"; <br>}<br> cout<<"\n";<br> }
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- pattern end -->
+	<!-- pattern-4 -->
+	<div class="card">
+		<div class="card-header" role="tab">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h5 class="panel-title">
+							<a data-toggle="collapse" href="#collapse4">PatternPrograms-4<i
+								class="fa fa-angle-down rotate-icon"></i></a>
+						</h5>
+					</div>
+					<div id="collapse4" class="panel-collapse collapse">
+						<div class="panel-body">
+							<img src="images/pattern/pattern1.png"/>
+							<br> 
+							Example Logic:<br> ==============<br>
+							 for(i=5;i>=1;i--)<br>
+    {<br>
+        for(j=1;j<i;j++)<br>
+        {<br>
+            cout<<" ";<br>
+        }
+        for(k=5;k>=i;k--)<br>
+        {<br>
+            cout<<"*";<br>
+        }<br>
+        cout<<"\n";<br>
+    }
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- pattern end -->
+	<!--Footer-->
+	<footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+
+	<!--Footer Links-->
+	<div class="container text-center text-md-left">
+
+		<!-- Footer links -->
+		<div class="row text-center text-md-left mt-3 pb-3">
+
+			<!--First column-->
+			<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+				<h6 class="text-uppercase mb-4 font-weight-bold">JHCPROGRAMMING</h6>
+				<p>Easy to learn Programs@Anytime@Anywhere</p>
+			</div>
+			<!--/.First column-->
+
+			<hr class="w-100 clearfix d-md-none">
+
+			<!--Second column-->
+			<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+				<h6 class="text-uppercase mb-4 font-weight-bold">Objective</h6>
+				<p>
+					<a href="#!">Java</a>
+				</p>
+				<p>
+					<a href="#!">C-Programming</a>
+				</p>
+				<p>
+					<a href="#!">OOPS-Programming</a>
+				</p>
+				<p>
+					<a href="#!">Bootstrap</a>
+				</p>
+			</div>
+			<!--/.Second column-->
+
+			<hr class="w-100 clearfix d-md-none">
+
+			<!--Third column-->
+			<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+				<h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+				<p>
+					<a
+						href="https://www.youtube.com/channel/UCARc3v6818KY-BfmOc2efUQ?view_as=subscriber">@SubscribeYoutube</a>
+				</p>
+				<p>
+					<a
+						href="https://www.youtube.com/playlist?list=PLExUa3EURkZVniQIyUuok-svoBpRFquAo">CProgramming</a>
+				</p>
+				<p>
+					<a
+						href="https://www.youtube.com/playlist?list=PLExUa3EURkZU9xGKbGSrJQSAZ8XE0V1cZ">C++Programming</a>
+				</p>
+				<p>
+					<a
+						href="https://www.youtube.com/playlist?list=PLExUa3EURkZU9xGKbGSrJQSAZ8XE0V1cZ">JavaProgramming</a>
+				</p>
+			</div>
+			<!--/.Third column-->
+
+			<hr class="w-100 clearfix d-md-none">
+
+			<!--Fourth column-->
+			<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+				<h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+				<p>
+					<i class="fa fa-home mr-3"></i> Karur
+				</p>
+				<p>
+					<i class="fa fa-envelope mr-3"></i>jhcprogramming@gmail.com
+				</p>
+				<p>
+					<i class="fa fa-phone mr-3"></i>+919843095933
+				</p>
+				<!--                       <p><i class="fa fa-print mr-3"></i></p> -->
+			</div>
+			<!--/.Fourth column-->
+
+		</div>
+		<!-- Footer links -->
+
+		<hr>
+
+		<div class="row py-3 d-flex align-items-center">
+
+			<!--Grid column-->
+			<div class="col-md-8 col-lg-8">
+
+				<!--Copyright-->
+				<p class="text-center text-md-left grey-text">
+					© 2018 Copyright: <a href="#!"><strong> JHCPROGRAMMING</strong></a>
+				</p>
+				<!--/.Copyright-->
+
+			</div>
+			<!--Grid column-->
+
+			<!--Grid column-->
+			<div class="col-md-4 col-lg-4 ml-lg-0">
+
+				<!--Social buttons-->
+				<div class="text-center text-md-right">
+					<ul class="list-unstyled list-inline">
+						<li class="list-inline-item"><a href=""><i
+								class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href=""><i
+								class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href=""><i
+								class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href=""><i
+								class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+				<!--/.Social buttons-->
+
+			</div>
+			<!--Grid column-->
+
+		</div>
+
+	</div>
+
+	</footer>
+	<!--/.Footer-->
+
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- <jsp:include page="footer.jsp"></jsp:include> -->
+
+</body>
+</html>

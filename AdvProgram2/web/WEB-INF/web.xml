@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>loginaction</servlet-name>
+        <servlet-class>com.niit.loginaction</servlet-class>
+         <init-param>
+            <param-name>valid</param-name>
+            <param-value>LoginSucess!!</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>validateaction</servlet-name>
+        <servlet-class>com.niit.validateaction</servlet-class>
+       
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>loginaction</servlet-name>
+        <url-pattern>/loginaction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>validateaction</servlet-name>
+        <url-pattern>/validateaction</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

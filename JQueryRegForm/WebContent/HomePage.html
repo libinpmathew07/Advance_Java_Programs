@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("input").focus(function(){
+        $(this).css("background-color", "#eaf0f9");
+    });
+    $("input").blur(function(){
+        $(this).css("background-color", "#eaf0f9");
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#hide").mouseenter(function(){
+        $("li").hide();
+    });
+    $("#show").mouseenter(function(){
+        $("li").show();
+    });
+});
+</script>
+</head>
+<body>
+
+Name: <input type="text"><br><br>
+Email: <input type="text"><br><br>
+Phone:<input type="text"> 
+<input type="submit" value="Login"> 
+
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<ul>
+<li>Menu</li>
+<li>1</li>
+<li>2</li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>

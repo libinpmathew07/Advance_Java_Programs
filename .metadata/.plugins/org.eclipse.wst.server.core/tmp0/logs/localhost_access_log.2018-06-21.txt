@@ -1,0 +1,16 @@
+127.0.0.1 - - [21/Jun/2018:14:30:42 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:30:42 +0530] "GET /PgpStudentsProjectj2ee/UserLogin.jsp HTTP/1.1" 200 430
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:30:42 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:31:07 +0530] "GET /PgpStudentsProjectj2ee/useractiondb.jsp?email=azartechnet%40gmail.com&pass=azar HTTP/1.1" 200 504
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:32:37 +0530] "GET /PgpStudentsProjectj2ee/useractiondb.jsp?email=azartechnet%40gmail.com&pass=azar HTTP/1.1" 200 569
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:33:48 +0530] "GET /PgpStudentsProjectj2ee/useractiondb.jsp?email=azartechnet%40gmail.com&pass=azar HTTP/1.1" 200 620
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:33:50 +0530] "GET /PgpStudentsProjectj2ee/ViewDatainForm.jsp? HTTP/1.1" 200 265
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:37:53 +0530] "GET /PgpStudentsProjectj2ee/useractiondb.jsp?email=azartechnet%40gmail.com&pass=azar HTTP/1.1" 200 620
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:37:55 +0530] "GET /PgpStudentsProjectj2ee/ViewDatainForm.jsp? HTTP/1.1" 200 707
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:41:46 +0530] "GET /PgpStudentsProjectj2ee/useractiondb.jsp?email=azartechnet%40gmail.com&pass=azar HTTP/1.1" 200 620
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:41:49 +0530] "GET /PgpStudentsProjectj2ee/ViewDatainForm.jsp? HTTP/1.1" 200 732
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:41:56 +0530] "GET /PgpStudentsProjectj2ee/ViewDatainForm.jsp?email=azartechnet%40gmail.com&pass=mohan HTTP/1.1" 200 732
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:42:46 +0530] "GET /PgpStudentsProjectj2ee/ViewDatainForm.jsp?email=azartechnet%40gmail.com&pass=mohan HTTP/1.1" 200 748
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:42:54 +0530] "GET /PgpStudentsProjectj2ee/updateaction.jsp?email=azartechnet%40gmail.com&pass=mohan HTTP/1.1" 500 3150
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:43:17 +0530] "GET /PgpStudentsProjectj2ee/updateaction.jsp?email=azartechnet%40gmail.com&pass=mohan HTTP/1.1" 500 5290
+0:0:0:0:0:0:0:1 - - [21/Jun/2018:14:44:02 +0530] "GET /PgpStudentsProjectj2ee/updateaction.jsp?email=azartechnet%40gmail.com&pass=mohan HTTP/1.1" 200 283

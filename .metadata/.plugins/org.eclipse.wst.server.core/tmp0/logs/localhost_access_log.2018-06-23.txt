@@ -1,0 +1,17 @@
+127.0.0.1 - - [23/Jun/2018:13:29:39 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:13:29:40 +0530] "GET /JspFullProgram/LoginPage.jsp HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:13:29:40 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:13:29:51 +0530] "GET /JspFullProgram/LoginAction.jsp?email=admin%40gmail.com HTTP/1.1" 200 285
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:13:29:56 +0530] "GET /JspFullProgram/LoginAction.jsp?email=admin%40gmail.comdd HTTP/1.1" 200 551
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:13:30:45 +0530] "GET /JspFullProgram/LoginAction.jsp?email=admin%40gmail.com HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:13:30:45 +0530] "GET /JspFullProgram/page1.jsp HTTP/1.1" 200 285
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:13:35:00 +0530] "GET /JspFullProgram/LoginPage.jsp HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:13:35:03 +0530] "GET /JspFullProgram/LoginAction.jsp?email=admin%40gmail.com HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:13:35:03 +0530] "GET /JspFullProgram/page1.jsp HTTP/1.1" 200 313
+127.0.0.1 - - [23/Jun/2018:14:00:52 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:14:00:53 +0530] "GET /JspUseBeanPrograms/Demo1.jsp HTTP/1.1" 200 426
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:14:00:59 +0530] "GET /JspUseBeanPrograms/loginaction.jsp?uname=admin&pass=azar HTTP/1.1" 200 290
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:14:03:26 +0530] "GET /JspFullProgram/LoginPage.jsp HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:14:03:30 +0530] "GET /JspFullProgram/LoginAction.jsp?email=admin%40gmail.com HTTP/1.1" 200 313
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:14:03:35 +0530] "GET /JspFullProgram/LoginAction.jsp?email=admin%40gmail.comnn HTTP/1.1" 200 799
+0:0:0:0:0:0:0:1 - - [23/Jun/2018:14:08:27 +0530] "GET /JspFullProgram/LoginPage.jsp HTTP/1.1" 200 688
